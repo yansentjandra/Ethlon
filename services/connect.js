@@ -13,13 +13,13 @@ url = "https://c-3sux78kvnkay76x24mgskvkjogx2eiax78ykijtx2eius.g00.gamepedia.com
 //   _id: "5c9fbef5128f28a070a6a01e",
 //   imageURL: "https://oddslifenetstorage.blob.core.windows.net/esportsinsider/2017/02/Faker.jpg"
 // });
-new User ({
-  volunteerName: name,
-  language: language,
-  available: status,
-  contact: contact,
-  imageURL: url,
-}).save();
+// new User ({
+//   volunteerName: name,
+//   language: language,
+//   available: status,
+//   contact: contact,
+//   imageURL: url,
+// }).save();
 
 // (id,done) => {
 
