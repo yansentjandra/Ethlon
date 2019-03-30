@@ -11,7 +11,7 @@
     "start": "node index.js",
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",
-    "install": "cd client && yarn install",
+    "install": "cd client && npm install",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Yansen Tjandra",

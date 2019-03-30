@@ -1,0 +1,25 @@
+.main-image {
+    width:100%;
+    
+}
+
+.jumbotron {
+   background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../images/mainPicture.jpg);
+   height:100vh;
+
+} 
+
+.hero-text {
+    position: absolute;
+    right:40%;
+    bottom:55%;
+    font-size: 50px;
+    color:white;  
+    margin:auto;
+}
+
+.button {
+    border-radius: 12px;
+    background-color:blue;
+    color:white;
+}
