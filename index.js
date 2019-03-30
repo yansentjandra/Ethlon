@@ -2,8 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 const keys = require('./config/keys');
 const bodyParser = require('body-parser');
-const busboy = require('connect-busboy');
-const busboyBodyParser = require('busboy-body-parser');
+// const busboy = require('connect-busboy');
+// const busboyBodyParser = require('busboy-body-parser');
 // import cors from 'cors';
 
 require('./models/Patient');
@@ -16,8 +16,8 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(busboy());
-app.use(busboyBodyParser());
+// app.use(busboy());
+// app.use(busboyBodyParser());
 // app.use(cors());
 
 // CORS
